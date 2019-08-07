@@ -1,0 +1,38 @@
+{
+  "name": "node-simple-project",
+  "version": "1.0.0",
+  "description": "node-simple-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aslkami/node-simple-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aslkami/node-simple-project/issues"
+  },
+  "homepage": "https://github.com/aslkami/node-simple-project#readme",
+  "dependencies": {
+    "config": "^3.2.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^3.18.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.4",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4",
+    "supertest": "^4.0.2",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
